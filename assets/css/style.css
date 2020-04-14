@@ -400,9 +400,10 @@ textarea.form-control {
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
-	-moz-text-shadow: 0 0 10px white;
+	text-shadow: 2px 2px 0px rgba(0, 16, 255, 1);
+	/* -moz-text-shadow: 0 0 10px white;
 	-webkit-text-shadow: 0 0 10px white;
-	text-shadow: 0 0 10px white;
+	text-shadow: 0 0 10px white; */
 }
 
 /* ---------------------------------------------- /*
@@ -1007,9 +1008,7 @@ figure.effect-bubba:hover p {
 }
 
 .head-web {
-	-moz-text-shadow: 0 0 10px rgb(0, 204, 34);
-	-webkit-text-shadow: 0 0 10px rgb(0, 204, 34);
-	text-shadow: 0 0 10px rgb(0, 204, 34);
+	text-shadow: 2px 2px 0px rgba(0, 255, 0, 1);
 }
 
 .me {
