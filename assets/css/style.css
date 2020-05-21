@@ -237,7 +237,6 @@ textarea.form-control {
 
 .pfblock {
 	padding: 120px 0 100px;
-	background-color: #fff;
 }
 
 .pfblock-gray {
@@ -269,42 +268,6 @@ textarea.form-control {
 	margin: 0 0 60px;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	background: #1d1e22;
-}
-
-.glowing-text {
-	color: #fff;
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin: 0;
-	text-shadow: 0px -1px 2px white, 0px -3px 6px rgba(255, 200, 200, 1),
-		0px -6px 12px rgba(255, 150, 100, 1), 0px -10px 20px rgba(255, 100, 100, 1),
-		0px -15px 30px rgba(255, 50, 50, 1), 0px -21px 42px rgba(255, 0, 0, 1);
-	animation: fire 0.01s ease infinite, colorSpin 10s linear infinite;
-	font-family: Sans-serif;
-}
-
-@keyframes fire {
-	100% {
-		text-shadow: 0px -4px 8px white, 0px -12px 24px rgba(255, 200, 200, 1),
-			0px -24px 48px rgba(255, 150, 100, 1),
-			0px -40px 80px rgba(255, 100, 100, 1),
-			0px -60px 120px rgba(255, 50, 50, 1), 0px -84px 168px rgba(255, 0, 0, 1);
-		filter: hue-rotate(360deg);
-	}
-}
-
-
 .pfblock-header-left {
 	text-align: left;
 }
@@ -312,31 +275,16 @@ body {
 .pfblock-header-left .pfblock-line {
 	width: inherit;
 	margin: 30px 0;
-	color: white;
 }
 
-.pfblock-title1 {
+.pfblock-title {
 	font-weight: 800;
-	color: black;
 }
 
-.pfblock-title2 {
-	font-weight: 800;
-	color: black;
-}
-
-.pfblock-subtitle1 {
+.pfblock-subtitle {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
-	color: black;
-}
-
-.pfblock-subtitle2 {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-style: normal;
-	font-size: 18px;
-	color: black;
 }
 
 .pfblock-line {
@@ -448,10 +396,10 @@ body {
 
 .start {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 23px;
+	font-size: 17px;
 	font-style: normal;
 	text-transform: none;
-	margin: 60px 0;
+	margin: 15px 0;
 	text-shadow: 2px 2px 0px rgba(0, 16, 255, 1);
 	/* -moz-text-shadow: 0 0 10px white;
 	-webkit-text-shadow: 0 0 10px white;
